@@ -172,3 +172,23 @@ nav{
     margin-left: 5px;
     font-size: 1.2rem;
 }
+
+@media (width > 540px){
+    .nav_lgo{
+        max-width: 120px;
+    }
+    .header_tag{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (width > 768px){
+    body{
+        padding:1rem;
+    }
+
+    .nav_lgo{
+        max-width:150px;
+    }
+}
