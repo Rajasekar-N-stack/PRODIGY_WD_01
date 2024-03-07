@@ -23,5 +23,22 @@ ScrollReveal().reveal(".header_tag", {
     
 })
 
+//festive_container
+ScrollReveal().reveal(".festive_content .section_header",{
+    ...scrollrevealoption
+});
+
+ScrollReveal().reveal(".festive_content .section_desc",{
+    ...scrollrevealoption,
+    delay : 500,
+});
+
+
+ScrollReveal().reveal(".festive_content .festive_btn",{
+    ...scrollrevealoption,
+    delay : 1000
+});
+
+
 
     
