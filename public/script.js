@@ -40,5 +40,11 @@ ScrollReveal().reveal(".festive_content .festive_btn",{
 });
 
 
+ScrollReveal().reveal(".shopping_card", {
+...scrollrevealoption,
+interval : 500,
+
+})
+
 
     
