@@ -364,6 +364,51 @@ nav{
   }
 
 
+  .coupon{
+    background-color: var(--extra-light);
+    border-radius: 1rem;
+  }
+
+
+  .coupon_container{
+    display: grid;
+    gap:2rem;
+    text-align: center;
+
+  }
+
+  .coupon_container .section_header{
+    font-size: 2.75rem;
+    margin:0;
+  }
+
+  .coupon_form{
+    padding: 10px;
+    width:100%;
+    max-width: 400px;
+    margin-inline:auto;
+    display:flex ;
+    align-items: center;
+    border-radius: 10rem;
+    box-shadow: inset 5px 5px 10px #e5e5e5, inset -10px -10px 20px #ffffff;
+    }
+
+    .coupon_form input{
+      padding-inline: 1rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--text-dark);
+  background: transparent;
+    }
+
+  .coupon_form .btn{
+    padding: 7px 10px;
+  font-size: 1.75rem;
+  }
+
+
 @media (width > 540px){
     .nav_lgo{
         max-width: 120px;
@@ -408,5 +453,11 @@ nav{
       text-align: left;
     }
 
+    .coupon_container{
+      grid-template-columns: 1.5fr 1fr;
+      text-align: left;
+      align-items: center;
+
+        }
 
 }
