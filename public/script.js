@@ -47,4 +47,19 @@ interval : 500,
 })
 
 
+ScrollReveal().reveal(".explore_content .section_header",{
+    ...scrollrevealoption,
+});
+
+ScrollReveal().reveal(".explore_content .section_desc",{
+    ...scrollrevealoption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".explore_content .explore_btn",{
+    ...scrollrevealoption,
+    delay: 1000,
+});
+
+
     

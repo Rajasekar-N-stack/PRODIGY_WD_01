@@ -402,5 +402,11 @@ nav{
         grid-template-columns: repeat(4,1fr);
     }
 
+    .explore_container{
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      text-align: left;
+    }
+
 
 }
